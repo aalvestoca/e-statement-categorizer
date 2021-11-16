@@ -1,0 +1,29 @@
+{
+    "supermarket":[
+        {"name":"ANDREW & SHELLEY", "aka":"No Frills"},
+        {"name":"FARM BOY"},
+        {"name":"LOBLAW"},
+        {"name":"LCBO", "aka":"LOBLAW"},
+        {"name":"METRO"}
+    ],
+    "other":[
+        {"name":"DOLLARAMA"}
+    ],
+    "commute":[
+        {"name":"PRESTO"},
+        {"name":"BECK TAXI"}
+    ],
+    "pharmacy":[
+        {"name":"REXALL"},
+        {"name":"SHOPPERS"}
+    ],
+    "delivery":[
+        {"name":"THE BURGER", "aka":"THE BURGER's PRIEST"},
+        {"name":"PARAMOUNT"},
+        {"name":"TIM HORTONS"},
+        {"name":"SHATTER ABBAS", "aka":"Libanese Food"},
+        {"name":"SECOND CUP"},
+        {"name":"SUSHI SUPREME"},
+        {"name":"MORRISON-NORTH", "aka":"Café"}
+    ]
+}
