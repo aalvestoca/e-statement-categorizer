@@ -3,8 +3,8 @@ const fs = require('fs');
 const category = require('./category');
 const transaction = require('./transaction');
 
-const date1 = '10/08/2021';
-const date2 = '11/03/2021';
+const date1 = '11/05/2021';
+const date2 = '12/05/2021';
 const postedTransactionsFilename = './pcbanking.ascii';
 
 //Read an e-Statement file from ScotiaBank
@@ -27,7 +27,7 @@ fs.readFile(postedTransactionsFilename, (err, data) => {
     const totals = category.getValuesByCategory(transactionArr);
     console.log(totals);
 
-    const transactions = transactionArr.filter(t=>t.category === 'supermarket');
+    const transactions = transactionArr.filter(t=>t.category === 'baby_extra');
     console.log(transactions);
 })
 

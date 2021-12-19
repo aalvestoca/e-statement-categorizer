@@ -12,3 +12,8 @@ Scotiabank format
 10/17/2021,"SUPERMARKET PLUS #752    TORONTO      ON ",-42.51  
 ...  
 
+## instructions
+1. Download the ASCII version on your credit card page
+2. Replace the file in the root folder
+3. Replace the start and end dates in index.js file according to the Last Statement (View e-Statements) area on your credit card page
+
