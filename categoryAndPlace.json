@@ -1,11 +1,13 @@
 {
     "supermarket":[
         {"name":"ANDREW & SHELLEY", "aka":"No Frills"},
+        {"name":"NO FRILLS"},
         {"name":"FARM BOY"},
         {"name":"LOBLAW"},
         {"name":"LCBO", "aka":"LOBLAW"},
         {"name":"METRO"},
         {"name":"PADARIA"},
+        {"name":"WAL-MART"},
         {"name":"SOBEYS"}
     ],
     "other":[
@@ -28,7 +30,8 @@
         {"name":"SUSHI SUPREME"},
         {"name":"MAYBES RESTAURANT"},
         {"name":"MORRISON-NORTH", "aka":"Café"},
-        {"name":"MCDONALD'S"}
+        {"name":"MCDONALD'S"},
+        {"name":"HARVEY'S"}
     ],
     "salon":[
         {"name":"D SQUARE SALON"}
