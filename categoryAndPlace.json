@@ -8,7 +8,8 @@
         {"name":"METRO"},
         {"name":"PADARIA"},
         {"name":"WAL-MART"},
-        {"name":"SOBEYS"}
+        {"name":"SOBEYS"},
+        {"name":"SUPER EXPRESS CONVENIENCE"}
     ],
     "other":[
         {"name":"DOLLARAMA"}
@@ -34,10 +35,21 @@
         {"name":"HARVEY'S"}
     ],
     "salon":[
-        {"name":"D SQUARE SALON"}
+        {"name":"D SQUARE SALON"},
+        {"name":"MAZZ SALON"}
     ],
     "baby_extra":[
         {"name": "MGCS SO BIRTH"},
         {"name": "TOYS 'R' US"}
+    ],
+    "dentist":[
+        {"name": "HARARI"}
+    ],
+    "immigration":[
+        {"name": "IMMIGRATION"}
+    ],
+    "department_shop":[
+        {"name": "WINNERS"}
     ]
+
 }
