@@ -1,55 +1,140 @@
 {
-    "supermarket":[
-        {"name":"ANDREW & SHELLEY", "aka":"No Frills"},
-        {"name":"NO FRILLS"},
-        {"name":"FARM BOY"},
-        {"name":"LOBLAW"},
-        {"name":"LCBO", "aka":"LOBLAW"},
-        {"name":"METRO"},
-        {"name":"PADARIA"},
-        {"name":"WAL-MART"},
-        {"name":"SOBEYS"},
-        {"name":"SUPER EXPRESS CONVENIENCE"}
+    "supermarket": [
+        {
+            "name": "ANDREW & SHELLEY",
+            "aka": "No Frills"
+        },
+        {
+            "name": "NO FRILLS"
+        },
+        {
+            "name": "FARM BOY"
+        },
+        {
+            "name": "LOBLAW"
+        },
+        {
+            "name": "LCBO",
+            "aka": "LOBLAW"
+        },
+        {
+            "name": "METRO"
+        },
+        {
+            "name": "PADARIA"
+        },
+        {
+            "name": "WAL-MART"
+        },
+        {
+            "name": "SOBEYS"
+        },
+        {
+            "name": "SUPER EXPRESS CONVENIENCE"
+        },
+        {
+            "name": "NOVA ERA BAKERY"
+        }
     ],
-    "other":[
-        {"name":"DOLLARAMA"}
+    "other": [
+        {
+            "name": "DOLLARAMA"
+        },
+        {
+            "name": "PUBLIC LIBRARY"
+        }
     ],
-    "commute":[
-        {"name":"PRESTO"},
-        {"name":"BECK TAXI"}
+    "commute": [
+        {
+            "name": "PRESTO"
+        },
+        {
+            "name": "BECK TAXI"
+        }
     ],
-    "pharmacy":[
-        {"name":"REXALL"},
-        {"name":"SHOPPERS"}
+    "pharmacy": [
+        {
+            "name": "REXALL"
+        },
+        {
+            "name": "SHOPPERS"
+        }
     ],
-    "delivery":[
-        {"name":"THE BURGER", "aka":"THE BURGER's PRIEST"},
-        {"name":"PARAMOUNT"},
-        {"name":"TIM HORTONS"},
-        {"name":"SHATTER ABBAS", "aka":"Libanese Food"},
-        {"name":"SECOND CUP"},
-        {"name":"SUSHI SUPREME"},
-        {"name":"MAYBES RESTAURANT"},
-        {"name":"MORRISON-NORTH", "aka":"Café"},
-        {"name":"MCDONALD'S"},
-        {"name":"HARVEY'S"}
+    "cafe": [
+        {
+            "name": "AROMA ESPRESSO"
+        },
+        {
+            "name": "TIM HORTONS"
+        },
+        {
+            "name": "SECOND CUP"
+        },
+        {
+            "name": "MORRISON-NORTH",
+            "aka": "MORRISON-NORTH Café"
+        },
+        {
+            "name": "MCDONALD'S"
+        },
+        {
+            "name": "THE SOCIAL BLEND"
+        }
     ],
-    "salon":[
-        {"name":"D SQUARE SALON"},
-        {"name":"MAZZ SALON"}
+    "delivery": [
+        {
+            "name": "THE BURGER",
+            "aka": "THE BURGER's PRIEST"
+        },
+        {
+            "name": "PARAMOUNT"
+        },
+        {
+            "name": "SHATTER ABBAS",
+            "aka": "Libanese Food"
+        },
+        {
+            "name": "SUSHI SUPREME"
+        },
+        {
+            "name": "MAYBES RESTAURANT"
+        },
+        {
+            "name": "HARVEY'S"
+        },
+        {
+            "name": "MONKEY SUSHI"
+        }
     ],
-    "baby_extra":[
-        {"name": "MGCS SO BIRTH"},
-        {"name": "TOYS 'R' US"}
+    "salon": [
+        {
+            "name": "D SQUARE SALON"
+        },
+        {
+            "name": "MAZZ SALON"
+        }
     ],
-    "dentist":[
-        {"name": "HARARI"}
+    "baby_extra": [
+        {
+            "name": "MGCS SO BIRTH"
+        },
+        {
+            "name": "TOYS 'R' US"
+        }
     ],
-    "immigration":[
-        {"name": "IMMIGRATION"}
+    "dentist": [
+        {
+            "name": "HARARI"
+        }
     ],
-    "department_shop":[
-        {"name": "WINNERS"}
+    "immigration": [
+        {
+            "name": "IMMIGRATION"
+        }
+    ],
+    "department_shop": [
+        {
+            "name": "WINNERS"
+        }
     ]
-
 }
