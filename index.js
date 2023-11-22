@@ -1,9 +1,8 @@
 const fs = require('fs');
 const category = require('./category');
-const categoryAndPlace = require('./categoryAndPlace.json');
+const categoryAndPlace = require('./config/categoryAndPlace.json');
 const transaction = require('./entities/transaction');
-
-const postedTransactionsFilename = './pcbanking.txt';//'./pcbanking.ascii';
+const postedTransactionsFilename = './feed/pcbanking.txt';
 
 //Read an e-Statement file from ScotiaBank
 fs.readFile(postedTransactionsFilename, (err, data) => {
