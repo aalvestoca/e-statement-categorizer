@@ -1,5 +1,5 @@
-const categoryAndPlace = require('./categoryAndPlace.json');
-function getCategory(origin) {
+
+function getCategory(categoryAndPlace, origin) {
     const keys = Object.keys(categoryAndPlace);
     for (let i = 0; i < keys.length; ++i) {
         if (categoryAndPlace[keys[i]].some(o => origin.indexOf(o.name) >= 0)) {
@@ -10,7 +10,7 @@ function getCategory(origin) {
     return null;
 }
 
-function getPlace(origin) {
+function getPlace(categoryAndPlace, origin) {
     const keys = Object.keys(categoryAndPlace);
     for (let i = 0; i < keys.length; ++i) {
         const g = categoryAndPlace[keys[i]].find(o => origin.indexOf(o.name) >= 0);

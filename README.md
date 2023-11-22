@@ -17,3 +17,6 @@ Scotiabank format
 2. Replace the file in the root folder
 3. Replace the start and end dates in index.js file according to the Last Statement (View e-Statements) area on your credit card page
 
+## execution
+node index
+

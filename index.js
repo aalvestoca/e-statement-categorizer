@@ -1,10 +1,8 @@
-
 const fs = require('fs');
 const category = require('./category');
-const transaction = require('./transaction');
+const categoryAndPlace = require('./categoryAndPlace.json');
+const transaction = require('./entities/transaction');
 
-const date1 = ''//'12/07/2021';
-const date2 = ''//'01/10/2022';
 const postedTransactionsFilename = './pcbanking.txt';//'./pcbanking.ascii';
 
 //Read an e-Statement file from ScotiaBank
@@ -13,15 +11,14 @@ fs.readFile(postedTransactionsFilename, (err, data) => {
     const lines = statementText.split('\n');
     const transactionArr = [];
     lines.forEach(line => {
-        const trans = transaction.getTransaction(line, 'txt');
-        if (trans && (!date1 || (trans.date >= new Date(date1.concat(' 00:00:00')) && trans.date <= new Date(date2.concat(' 23:59:59'))))) {
+        const obj = transaction(line,categoryAndPlace);
+        obj.parse();
+        const trans = obj.get();
+        if (trans) {
             if (!trans.category) {
-                //Need to configure in categories.json
-                console.log('!!! No category: ', line);
+                //Need to configure in categoryAndPlace.json
+                console.log('!!! No categorized: ', `[${line}]`);
             } else {
-                if(['other','commute'].includes(trans.category) ){
-
-                }
                 transactionArr.push(trans)
             }
         }
@@ -30,8 +27,8 @@ fs.readFile(postedTransactionsFilename, (err, data) => {
     const totals = category.getValuesByCategory(transactionArr);
     console.log('totals',totals);
 
-    const transactions = transactionArr.filter(t=>['other','commute','delivery'].includes(t.category));
-    console.log(Array.from(new Set(transactions.map(t=>t.category + ' ' + t.name))));
+    const transactions = transactionArr.filter(t=>['other','commute','delivery',"immigration"].includes(t.category));
+    console.log(Array.from(new Set(transactions.map(t=>t.category + ' ' + (t.aka || t.name)))));
 })
 
 

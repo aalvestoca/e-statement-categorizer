@@ -34,6 +34,16 @@
         },
         {
             "name": "NOVA ERA BAKERY"
+        },
+        {
+            "name": "BULK BARN"
+        }
+        ,
+        {
+            "name": "MARCHELEO'S"
+        },
+        {
+            "name": "NANDO'S"
         }
     ],
     "other": [
@@ -42,6 +52,22 @@
         },
         {
             "name": "PUBLIC LIBRARY"
+        },
+        {
+            "name": "STAPLESPRINT.CA",
+            "aka": "Photo print"
+        }
+        ,
+        {
+            "name": "BILL MS NET",
+            "aka": "Azure Cloud"
+        },
+        {
+            "name": "MTO RUS-SO TORONTO",
+            "aka": "Ministry of Transportation"
+        },
+        {
+            "name": "LITTLE CANADA"
         }
     ],
     "commute": [
@@ -50,6 +76,9 @@
         },
         {
             "name": "BECK TAXI"
+        },
+        {
+            "name": "CANADA AUTO PARKS"
         }
     ],
     "pharmacy": [
@@ -58,6 +87,9 @@
         },
         {
             "name": "SHOPPERS"
+        },
+        {
+            "name": "RAZI PHARMACY"
         }
     ],
     "cafe": [
@@ -104,6 +136,21 @@
         },
         {
             "name": "MONKEY SUSHI"
+        },
+        {
+            "name": "SHANGHAI 360"
+        },
+        {
+            "name": "THE HOMEWAY"
+        },
+        {
+            "name": "TZATZIKI"
+        },
+        {
+            "name": "Five Guys"
+        },
+        {
+            "name": "WIMPY'S DINER"
         }
     ],
     "salon": [
@@ -130,11 +177,17 @@
     "immigration": [
         {
             "name": "IMMIGRATION"
+        },
+        {
+            "name": "SC PASSPORT VARENNES"
         }
     ],
     "department_shop": [
         {
             "name": "WINNERS"
+        },
+        {
+            "name": "FAIRWEATHER"
         }
     ]
 }
