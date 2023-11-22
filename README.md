@@ -18,3 +18,9 @@ node index
 
 ## testing
 jest .
+
+## next steps
+. Categories and places in database  
+. Create an API for this categorizer  
+. Develop front-end to consume the API  
+. Front-end with PDF upload option
