@@ -24,13 +24,16 @@ function getPlace(categoryAndPlace, origin) {
 
 function getValuesByCategory(arr) {
     const r = arr.reduce((acc, curr) => {
-        if (acc[curr.category]) {
-            acc[curr.category] = parseFloat(parseFloat(acc[curr.category] + curr.value).toFixed(2));
+        if(curr.category){
+            if (acc[curr.category]) {
+                acc[curr.category] = parseFloat(parseFloat(acc[curr.category] + curr.value).toFixed(2));
+            }
+            else
+                acc[curr.category] = curr.value;
+    
+            acc.total = parseFloat(parseFloat((acc.total || 0) + curr.value).toFixed(2));
         }
-        else
-            acc[curr.category] = curr.value;
 
-        acc.total = parseFloat(parseFloat((acc.total || 0) + curr.value).toFixed(2));
         return acc
     }, {})
 

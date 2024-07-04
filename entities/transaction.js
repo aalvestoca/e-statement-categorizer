@@ -1,38 +1,42 @@
 const category = require('../category');
 
-const Transaction = (billLine, categories, isLog) => {
-    const line = billLine;
+const CreateTransactionFromLine = (billLine, categories, isLog) => {
     let _trans = {
         name: '',
         aka: '',
         value: '',
         category: '',
     }
+
     function parse() {
-        const arr = line.split(' ');
+        const arr = billLine.trim().split(' ')
         if (arr[1]) {
             const value = arr[arr.length-1] ? parseFloat(arr[arr.length-1].replace(',', '')) : 0;
-            const place = category.getPlace(categories, line);
-            if(!place.name) return
+            const place = category.getPlace(categories, billLine);
+            const name = place.name ? place.name.trim() : null;
+            if(!name){
+                _trans = null;
+                return
+            }
             _trans = { 
-                name: place.name,
-                aka: place.aka || place.name,
+                name: name,
+                aka: place.aka || name,
                 value,
-                category: category.getCategory(categories, line),
+                category: category.getCategory(categories, billLine),
             }
         }
     }
     function toString() {
         return `name: [${_trans.name}], aka: [${_trans.aka}], value: [${_trans.value}], category: [${_trans.category}]`
     }
-    function get() {
+    function getCurrentLine() {
         return _trans
     }
     return {
         parse,
         toString,
-        get
+        getCurrentLine
     }
 }
 
-module.exports = Transaction
+module.exports = CreateTransactionFromLine
