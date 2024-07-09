@@ -27,6 +27,9 @@
             "name": "WAL-MART"
         },
         {
+            "name": "WALMART"
+        },
+        {
             "name": "SOBEYS"
         },
         {
@@ -44,12 +47,19 @@
         },
         {
             "name": "NANDO'S"
+        },
+        {
+            "name": "T&T SUPERMARKET"
+        },
+        {
+            "name": "FRESHCO"
+        },
+        {
+            "name": "DOLLARAMA"
         }
     ],
     "other": [
-        {
-            "name": "DOLLARAMA"
-        },
+       
         {
             "name": "PUBLIC LIBRARY"
         },
@@ -68,6 +78,13 @@
         },
         {
             "name": "LITTLE CANADA"
+        },
+        {
+            "name": "CITY OF OTTAWA-ANIMAL",
+            "aka": "Pet registration"
+        },
+        {
+            "name": "INTEREST CHARGES-PURCHASE"
         }
     ],
     "commute": [
@@ -79,6 +96,15 @@
         },
         {
             "name": "CANADA AUTO PARKS"
+        },
+        {
+            "name": "OCT*E99GW6MMXG9OMP",
+            "aka": "PRESTO"
+        }
+    ],
+    "gas": [
+        {
+            "name": "MACEWEN"
         }
     ],
     "pharmacy": [
@@ -90,7 +116,11 @@
         },
         {
             "name": "RAZI PHARMACY"
+        },
+        {
+            "name": "QUEENSWAY CARLETON HOSPIT"
         }
+
     ],
     "cafe": [
         {
@@ -111,6 +141,9 @@
         },
         {
             "name": "THE SOCIAL BLEND"
+        },
+        {
+            "name": "STARBUCKS COFFEE"
         }
     ],
     "delivery": [
@@ -151,6 +184,28 @@
         },
         {
             "name": "WIMPY'S DINER"
+        },
+        {
+            "name": "SHAWARMA HEAVEN"
+        },
+        {
+            "name": "UBEREATS",
+            "aka": "SHAWARMA HEAVEN"
+        },
+        {
+            "name": "LABRIOCHE PASTRY"
+        },
+        {
+            "name": "BROWNS SOCIALHOUSE"
+        },
+        {
+            "name": "RIVERSIDEPIZZERIA"
+        },
+        {
+            "name": "BIG RIDEAU BBQ"
+        },
+        {
+            "name": "FIREHOUSE SUBS"
         }
     ],
     "salon": [
@@ -159,6 +214,9 @@
         },
         {
             "name": "MAZZ SALON"
+        },
+        {
+            "name": "FIRST CHOICE HAIRCUTTERS"
         }
     ],
     "baby_extra": [
@@ -172,6 +230,9 @@
     "dentist": [
         {
             "name": "HARARI"
+        },
+        {
+            "name": "BRITANNIA VILLAGE DENT"
         }
     ],
     "immigration": [
@@ -188,6 +249,9 @@
         },
         {
             "name": "FAIRWEATHER"
+        },
+        {
+            "name": "MASTERMIND"
         }
     ]
 }

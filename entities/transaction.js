@@ -15,7 +15,12 @@ const CreateTransactionFromLine = (billLine, categories, isLog) => {
             const place = category.getPlace(categories, billLine);
             const name = place.name ? place.name.trim() : null;
             if(!name){
-                _trans = null;
+                _trans = {
+                    name: '',
+                    aka: '',
+                    value: '',
+                    category: '',
+                }
                 return
             }
             _trans = { 
